@@ -1,0 +1,122 @@
+.mainpage {
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 1518px;
+    height: 2513px;
+}
+
+.heading {
+    position: absolute;
+    /* border: 2px solid red; */
+    width: fit-content;
+    height: 88px;
+    margin-top: -156px;
+    margin-left: 419px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+.style {
+    /* border: 2px solid blueviolet; */
+    width: 1100px;
+    height: 374px;
+    margin-top: 270px;
+    margin-left: 227px;
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+}
+
+.style .left {
+    /* border: 2px solid pink; */
+    margin-left: -70px;
+    width: 50%;
+    height: 100%;
+    transform: skew(-20deg);
+    background-color: rgb(119, 122, 122);
+    /* justify-items: end; */
+}
+
+.leftpara {
+    font-size: 80px;
+    margin-top: 130px;
+    margin-left: 400px;
+    color: white;
+}
+
+.style .center {
+    /* border: 2px solid blue; */
+    width: 20%;
+    height: 100%;
+    transform: skew(-20deg);
+    background-color: rgb(72, 75, 75);
+    display: flex;
+}
+
+.centerpara {
+    /* justify-content: center; */
+    color: white;
+    font-size: 80px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.rightpara {
+    color: lightblue;
+    font-size: 80px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+
+.style .right {
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 100%;
+    transform: skew(-20deg);
+    background-color: black;
+
+}
+
+.content {
+    /* border: 2px solid yellow; */
+    width: 680px;
+    height: 640px;
+    margin-left: 419px;
+    margin-top: 51px;
+    font-size: 21px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 32px;
+}
+.video{
+    /* border: 2px solid rebeccapurple; */
+    width: 663px;
+    height: 382px;
+    margin-left: 419px;
+    margin-top: 2rem;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+.lowerpara{
+    /* border: 2px solid violet; */
+    margin-left: 419px;
+    /* margin-top: 42px; */
+    width: 680px;
+    height: 95px;
+    font-size: 21px;
+}
+.footer{
+    width: 680px;
+    height: 95px;
+    margin-left: 419px;
+    margin-top: 119px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
